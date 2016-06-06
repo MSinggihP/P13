@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int bil1,bil2;
+
+void tambah(){
+    int hasil;
+    hasil=bil1+bil2;
+    cout<<bil1<<" + "<<bil2<<" = "<<hasil<<endl;
+}
+void kurang(){
+    int hasil;
+    hasil=bil1-bil2;
+    cout<<bil1<<" - "<<bil2<<" = "<<hasil<<endl;
+}
+void kali(){
+    int hasil;
+    hasil=bil1*bil2;
+    cout<<bil1<<" * "<<bil2<<" = "<<hasil<<endl;
+}
+void bagi(){
+    int hasil;
+    hasil=bil1/bil2;
+    cout<<bil1<<" / "<<bil2<<" = "<<hasil<<endl;
+}
+
+int main(){
+    cout<<"bilangan 1 : ";
+    cin>>bil1;
+    cout<<"bilangan 2 : ";
+    cin>>bil2;
+
+    cout<<endl;
+    tambah();
+    kurang();
+    kali();
+    bagi();
+
+
+    return 0;
+}
