@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+//deklarasi
+void luas(int s);
+void keliling(int s);
+
+//subprogram
+void luas(int s){
+int jum;
+jum=s*s;
+cout<<"Luas Persegi     : "<<jum<<endl;
+}
+void keliling(int s){
+int jum;
+jum=s*4;
+cout<<"Keliling Persegi : "<<jum<<endl;
+}
+//program utama
+int main(){
+    int sisi;
+    cout<<"Masukan sisi : ";
+    cin>>sisi;
+    cout<<endl;
+    luas(sisi);
+    keliling(sisi);
+
+return 0;
+}
